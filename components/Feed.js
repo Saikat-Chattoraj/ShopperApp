@@ -2,7 +2,7 @@ import Image from "next/dist/client/image";
 import Link from "next/dist/client/link";
 const Feed = () => {
   return (
-    <div className="flex">
+    <div className="flex rounded-lg">
       <div className="lg:flex flex flex-col-reverse lg:flex-row justify-between place-items-center mt-28 m-auto">
         <div className="sm:px-20">
           <h1 className="font-serif 2xl:text-3xl xl:text-xl lg:text-lg text-2xl font-bold tracking-wider smx:text-center">Compliment your Flawless Beauty!</h1>

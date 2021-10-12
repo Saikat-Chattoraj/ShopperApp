@@ -2,7 +2,7 @@ import Link from "next/dist/client/link";
 import Image from "next/dist/client/image";
 const WomenCollection = () => {
   return (
-    <div className="flex">
+    <div className="flex max-w-max">
       <div className="flex flex-col mt-8">
         <div className="flex sm:px-20 xsm:px-12 px-6 justify-between">
           <div className="font-serif tracking-wider font-bold text-md">
@@ -35,7 +35,7 @@ const WomenCollection = () => {
           className="grid grid-flow-row xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-4 px-2
         place-items-center m-auto"
         >
-          <div className="rounded-md shadow-lg">
+          <div className="rounded-md bg-gray-50 shadow-lg">
             <div>
               <Image
                 className="rounded-md"
@@ -105,7 +105,7 @@ const WomenCollection = () => {
               </div>
             </div>
           </div>
-          <div className="rounded-md shadow-lg">
+          <div className="rounded-md bg-gray-50 shadow-lg">
             <div>
               <Image
                 className="rounded-md"
@@ -176,7 +176,7 @@ const WomenCollection = () => {
               </div>
             </div>
           </div>
-          <div className="rounded-md shadow-lg">
+          <div className="rounded-md bg-gray-50 shadow-lg">
             <div>
               <Image
                 className="rounded-md"
@@ -246,7 +246,7 @@ const WomenCollection = () => {
               </div>
             </div>
           </div>
-          <div className="rounded-md shadow-lg">
+          <div className="rounded-md bg-gray-50 shadow-lg">
             <div>
               <Image
                 className="rounded-md"
@@ -316,7 +316,7 @@ const WomenCollection = () => {
               </div>
             </div>
           </div>
-          <div className="rounded-md shadow-lg">
+          <div className="rounded-md bg-gray-50 shadow-lg">
             <div>
               <Image
                 className="rounded-md"
@@ -387,7 +387,6 @@ const WomenCollection = () => {
             </div>
           </div>
         </div>
-        <div className="border mt-3 w-full" />
       </div>
     </div>
   );
