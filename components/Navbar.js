@@ -3,8 +3,8 @@ import Image from "next/image";
 //navbar imported to Layout
 const Navbar = () => {
   return (
-    <div className=" flex w-screen">
-      <div className="md:container w-full h-8 mx-auto px-2 py-1">
+    <div className=" flex">
+      <div className="md:container h-8 mx-auto px-2 py-1">
         <div className="flex flex-col sm:flex-col md:flex-row justify-between place-items-center m-auto">
             {/* here the code for the navbar component of the header and logo */}
           <div className="flex place-items-center xsmx:mt-2">

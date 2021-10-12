@@ -2,8 +2,8 @@ import Link from "next/dist/client/link";
 import Image from "next/dist/client/image";
 const WomenCollection = () => {
   return (
-    <div className="flex w-screen">
-      <div className="w-full flex flex-col mt-8">
+    <div className="flex">
+      <div className="flex flex-col mt-8">
         <div className="flex sm:px-20 xsm:px-12 px-6 justify-between">
           <div className="font-serif tracking-wider font-bold text-md">
             Women's Collection
@@ -22,16 +22,16 @@ const WomenCollection = () => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M14 5l7 7m0 0l-7 7m7-7H3"
               />
             </svg>
           </div>
         </div>
         <div
-        //Collection starts here
+          //Collection starts here
           className="grid grid-flow-row xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-4 px-2
         place-items-center m-auto"
         >
@@ -75,9 +75,21 @@ const WomenCollection = () => {
                 className="px-2 py-1 shadow-lg bg-gradient-to-r
                  from-red-500 via-red-400 to-pink-400 rounded-md cursor-pointer hover:transform active:scale-90 duration-300 
                  active:shadow-sm"
-              ><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-            </svg>
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-4 inline-block"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
                 <button className="text-sm font-semibold text-yellow-50">
                   Add to Cart
                 </button>
@@ -133,9 +145,22 @@ const WomenCollection = () => {
                 className=" px-2 py-1 shadow-lg bg-gradient-to-r
                  from-red-500 via-red-400 to-pink-400 rounded-md cursor-pointer hover:transform active:scale-90 duration-300 
                  active:shadow-sm"
-              > <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-            </svg>
+              >
+                {" "}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-4 inline-block"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
                 <button className="text-sm font-semibold text-yellow-50">
                   Add to Cart
                 </button>
@@ -191,9 +216,21 @@ const WomenCollection = () => {
                 className=" px-2 py-1 shadow-lg bg-gradient-to-r
                  from-red-500 via-red-400 to-pink-400 rounded-md cursor-pointer hover:transform active:scale-90 duration-300 
                  active:shadow-sm"
-              ><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-            </svg>
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-4 inline-block"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
                 <button className="text-sm font-semibold text-yellow-50">
                   Add to Cart
                 </button>
@@ -249,9 +286,21 @@ const WomenCollection = () => {
                 className=" px-2 py-1 shadow-lg bg-gradient-to-r
                  from-red-500 via-red-400 to-pink-400 rounded-md cursor-pointer hover:transform active:scale-90 duration-300 
                  active:shadow-sm"
-              ><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-            </svg>
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-4 inline-block"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
                 <button className="text-sm font-semibold text-yellow-50">
                   Add to Cart
                 </button>
@@ -307,9 +356,21 @@ const WomenCollection = () => {
                 className=" px-2 py-1 shadow-lg bg-gradient-to-r
                  from-red-500 via-red-400 to-pink-400 rounded-md cursor-pointer hover:transform active:scale-90 duration-300 
                  active:shadow-sm"
-              ><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-4 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-            </svg>
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-4 inline-block"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
                 <button className="text-sm font-semibold text-yellow-50">
                   Add to Cart
                 </button>
@@ -326,7 +387,7 @@ const WomenCollection = () => {
             </div>
           </div>
         </div>
-        <div className="border mt-3 w-full"/>
+        <div className="border mt-3 w-full" />
       </div>
     </div>
   );
